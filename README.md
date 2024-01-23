@@ -16,7 +16,8 @@ Follow the following steps to setup the environment.  For reference, follow `htt
 ## Local Environment
 Once the `Initial Development` is setup above, follow the steps below:
 
-1. Copy the database by running `ddev import-db --src=db/db.sql.gz` to sync local DB
+1. Copy latest ExpressionEngine files (themes, system)
+1. Run installation (see DB setting under /config/config.local) or copy the database by running `ddev import-db --src=db/db.sql.gz` to sync local DB
 1. Run `ddev start`
 
 When the update is ready to be pushed to the repo:
